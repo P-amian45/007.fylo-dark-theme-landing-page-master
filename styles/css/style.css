@@ -1,4 +1,68 @@
+.header {
+  background-color: #1c2431;
+  padding: 2rem; }
+  .header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem; }
+
+.logo {
+  width: 7rem; }
+
+.header__bottom {
+  text-align: center;
+  color: white;
+  line-height: 1.5; }
+  .header__bottom-heading {
+    margin: 1rem 0;
+    font-family: "Raleway", sans-serif; }
+  .header__bottom-description {
+    font-family: "Raleway", sans-serif;
+    opacity: 90%; }
+
 .icon {
   width: 1rem;
   height: 1rem;
   fill: blue; }
+
+.nav-container {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem; }
+
+.nav-link, .cta {
+  text-decoration: none; }
+  .nav-link:not(:last-child), .cta:not(:last-child) {
+    margin-right: 1rem; }
+  .nav-link:link, .cta:link {
+    color: inherit; }
+  .nav-link:visited, .cta:visited {
+    color: white; }
+
+.nav-items {
+  display: inline-block;
+  opacity: 75%; }
+
+.illustration {
+  width: 23rem; }
+
+.promise__illustration {
+  width: 25rem; }
+
+.heading {
+  font-size: 1.9rem;
+  font-weight: 700; }
+
+.description {
+  font-weight: 400;
+  font-size: 1.15rem;
+  margin-bottom: 3rem; }
+
+.cta {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  padding: 1rem 8rem;
+  border-radius: 3rem;
+  background: linear-gradient(to right, #65e2d9, #339ecc);
+  border: none; }

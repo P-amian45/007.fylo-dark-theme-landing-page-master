@@ -3,3 +3,63 @@
     height: 1rem;
     fill: blue;
 }
+
+//NAV CONTAINER
+
+.nav-container{
+    color: $white;
+    font-family: $body-font;
+    font-size: $link-size;
+}
+
+.nav-link, .cta{
+    text-decoration: none;
+
+    &:not(:last-child){
+        margin-right: 1rem;
+    }
+
+    &:link{
+        color: inherit;
+    }
+
+    &:visited{
+        color: $white;
+    }
+
+}
+
+.nav-items{
+    display: inline-block;
+    opacity: 75%;
+}
+
+// HEADER ILLUSTRATION
+
+.illustration{
+    width: 23rem;
+}
+
+.promise__illustration{
+    width: 25rem;
+}
+
+.heading{
+    font-size: $heading-primary-size;
+    font-weight: $font-bold;
+}
+
+.description{
+    font-weight: $font-normal;
+    font-size: $header-description;
+    margin-bottom: 3rem;
+}
+
+.cta{
+    font-family: $headings-cta-nav;
+    font-weight: $font-bold;
+    padding: 1rem 8rem;
+    border-radius: 3rem;
+    background: linear-gradient(to right, $cyan, $blue);
+    border: none;
+}

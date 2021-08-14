@@ -1,0 +1,34 @@
+//HEADER LAYOUT
+
+.header{
+    background-color: $intro-email-bg;
+    padding: 2rem;
+
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+
+}
+
+.logo{
+    width: 7rem;
+}
+
+.header__bottom{
+    text-align: center;
+    color: $white;
+    line-height: 1.5;
+
+    &-heading{
+        margin: 1rem 0;
+        font-family: $headings-cta-nav;
+    }
+
+    &-description{
+        font-family: $body-font;
+        opacity: 90%;
+    }
+}
