@@ -25,10 +25,20 @@
     &-heading{
         margin: 1rem 0;
         font-family: $headings-cta-nav;
+        font-size: $heading-primary-size;
+        position: relative;
     }
 
     &-description{
         font-family: $body-font;
         opacity: 90%;
     }
+}
+
+//MAIN CONTENT
+
+.content{
+    background-color: $main-bg;
+    padding-top: 20rem;
+    margin-top: -14rem;
 }
