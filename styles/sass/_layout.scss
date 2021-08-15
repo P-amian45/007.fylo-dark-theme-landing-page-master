@@ -3,6 +3,9 @@
 .header{
     background-color: $intro-email-bg;
     padding: 2rem;
+    position: relative;
+    background: $intro-email-bg url(/images/bg-curvy-mobile.svg) -15vh 81vw no-repeat;
+    background-size: 43rem 20rem;
 
     &__top{
         display: flex;
@@ -26,7 +29,6 @@
         margin: 1rem 0;
         font-family: $headings-cta-nav;
         font-size: $heading-primary-size;
-        position: relative;
     }
 
     &-description{
