@@ -1,11 +1,10 @@
 //HEADER LAYOUT
 
 .header{
-    background-color: $intro-email-bg;
+    background: $intro-email-bg url(/images/bg-curvy-mobile.svg) -15vh 80vw no-repeat;
     padding: 2rem;
     position: relative;
-    background: $intro-email-bg url(/images/bg-curvy-mobile.svg) -15vh 81vw no-repeat;
-    background-size: 43rem 20rem;
+    background-size: 43rem 15rem;
 
     &__top{
         display: flex;

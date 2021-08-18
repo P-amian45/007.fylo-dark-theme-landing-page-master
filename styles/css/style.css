@@ -1,9 +1,8 @@
 .header {
-  background-color: #1c2431;
+  background: #1c2431 url(/images/bg-curvy-mobile.svg) -15vh 80vw no-repeat;
   padding: 2rem;
   position: relative;
-  background: #1c2431 url(/images/bg-curvy-mobile.svg) -15vh 81vw no-repeat;
-  background-size: 43rem 20rem; }
+  background-size: 43rem 15rem; }
   .header__top {
     display: flex;
     justify-content: space-between;
