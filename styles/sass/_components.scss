@@ -63,3 +63,30 @@
     background: linear-gradient(to right, $cyan, $blue);
     border: none;
 }
+
+//SERVICE GRID
+
+.service{
+
+    &__img{
+        width: 6rem;
+    }
+
+    &__heading{
+        font-family: $headings-cta-nav;
+        font-size: $service-font-size;
+        font-weight: $font-bold;
+        color: $white;
+        margin: 2.5rem 0 1rem 0;
+        opacity: 90%;
+    }
+
+    &__description{
+        margin-bottom: 2rem;
+        font-family: $body-font;
+        font-weight: $font-normal;
+        font-size: $header-description;
+        color: $white;
+        opacity: 85%;
+    }
+}
