@@ -48,6 +48,16 @@
 //SERVICE GRID LAYOUT
 
 .services-grid{
-    text-align: center;
     padding: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
