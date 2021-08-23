@@ -97,8 +97,9 @@
     }
 
     &__illustration{
-        width: 25rem;
-        margin-bottom: 2rem;
+        width: 20rem;
+        margin-bottom: 3rem;
+        align-self: center;
     }
 
     &__heading{
@@ -107,6 +108,7 @@
         font-weight: $font-bold;
         color: $white;
         opacity: 90%;
+        margin-left: 2rem;
     }
 
     &__description{
@@ -118,6 +120,32 @@
         line-height: 1.5;
         padding: 0 2rem;
         margin: 2rem 0 1rem 0;
+    }
+
+    &__cta{
+        font-family: $body-font;
+        font-size: $link-size-m;
+        text-decoration: none;
+        margin-left: 2rem;
+        padding-bottom: .4rem;
+        border-bottom:  .1rem solid $cyan;
+        display: inline-flex;
+        justify-content: left;
+        align-items: center;
+
+        & > svg{
+            margin-left: .5rem;
+        }
+
+        &:link{
+            color: $cyan;
+            opacity: 80%;
+        }
+
+        &:visited{
+            color: $cyan;
+        }
+
     }
 
 }
