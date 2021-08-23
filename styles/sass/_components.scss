@@ -34,14 +34,10 @@
     opacity: 75%;
 }
 
-// HEADER ILLUSTRATION
+// ALL ABOUT HEADER
 
 .illustration{
     width: 23rem;
-}
-
-.promise__illustration{
-    width: 25rem;
 }
 
 .heading{
@@ -91,3 +87,38 @@
         line-height: 1.5;
     }
 }
+
+//PROMISE SECTION
+
+.promise{
+
+    &__card{
+        margin-bottom: 3rem;
+    }
+
+    &__illustration{
+        width: 25rem;
+        margin-bottom: 2rem;
+    }
+
+    &__heading{
+        font-family: $headings-cta-nav;
+        font-size: $promise-font-size;
+        font-weight: $font-bold;
+        color: $white;
+        opacity: 90%;
+    }
+
+    &__description{
+        font-family: $body-font;
+        font-weight: $font-normal;
+        font-size: $header-description;
+        color: $white;
+        opacity: 85%;
+        line-height: 1.5;
+        padding: 0 2rem;
+        margin: 2rem 0 1rem 0;
+    }
+
+}
+
