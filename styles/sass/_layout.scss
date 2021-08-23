@@ -37,7 +37,7 @@
     }
 }
 
-//MAIN CONTENT
+//MAIN CONTENT LAYOUT
 
 .content{
     background-color: $main-bg;
@@ -60,4 +60,10 @@
     flex-direction: column;
     justify-content: left;
     align-self: center;
+}
+
+//TESTIMONIES LAYOUT
+
+.testimonies-grid{
+    margin: 5rem 0;
 }
