@@ -41,7 +41,7 @@
   align-self: center; }
 
 .testimonies-grid {
-  margin: 5rem 0; }
+  margin: 5rem 2rem; }
 
 .icon {
   width: 1rem;
@@ -110,7 +110,7 @@
   margin-bottom: 3rem; }
 
 .promise__illustration {
-  width: 20rem;
+  width: 22rem;
   margin-bottom: 3rem;
   align-self: center; }
 
@@ -149,3 +149,39 @@
     opacity: 80%; }
   .promise__cta:visited {
     color: #65e2d9; }
+
+.testimony-card {
+  padding: 0 2.5rem;
+  background-color: #202a3c; }
+  .testimony-card:not(:last-child) {
+    margin-bottom: 2rem; }
+
+.testimony {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 1rem;
+  opacity: 80%;
+  margin: 2rem 0;
+  line-height: 1.5; }
+
+.profil {
+  display: flex; }
+  .profil__picture {
+    width: 2.8rem;
+    border-radius: 50%; }
+  .profil__info {
+    margin-left: .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start; }
+  .profil__name {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    opacity: 80%; }
+  .profil__status {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    opacity: 75%;
+    font-size: 0.8rem; }

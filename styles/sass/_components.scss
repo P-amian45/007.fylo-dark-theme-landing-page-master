@@ -97,7 +97,7 @@
     }
 
     &__illustration{
-        width: 20rem;
+        width: 22rem;
         margin-bottom: 3rem;
         align-self: center;
     }
@@ -150,3 +150,54 @@
 
 }
 
+//TESTIMONIES SECTION
+
+.testimony-card{
+    padding: 0 2.5rem;
+    background-color: $testimonials-bg;
+
+    &:not(:last-child){
+        margin-bottom: 2rem;
+    }
+}
+
+.testimony{
+    font-family: $body-font;
+    color: $white;
+    font-size: $link-size;
+    opacity: 80%;
+    margin: 2rem 0;
+    line-height: 1.5;
+}
+
+.profil{
+
+    display: flex;
+
+    &__picture{
+        width: 2.8rem;
+        border-radius: 50%;
+    }
+
+    &__info{
+        margin-left: .8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    &__name{
+        color: $white;
+        font-family: $body-font;
+        font-weight: $font-bold;
+        opacity: 80%;
+    }
+
+    &__status{
+        font-family: $body-font;
+        color: $white;
+        opacity: 75%;
+        font-size: $xs-size;
+    }
+}
