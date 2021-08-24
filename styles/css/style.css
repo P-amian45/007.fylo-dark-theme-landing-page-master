@@ -151,7 +151,7 @@
     color: #65e2d9; }
 
 .testimony-card {
-  padding: 0 2.5rem;
+  padding: 1rem 2.5rem;
   background-color: #202a3c; }
   .testimony-card:not(:last-child) {
     margin-bottom: 2rem; }
