@@ -1,3 +1,7 @@
+body{
+    position: relative;
+}
+
 //HEADER LAYOUT
 
 .header {
@@ -40,9 +44,11 @@
 //MAIN CONTENT LAYOUT
 
 .content{
+    position: relative;
     background-color: $main-bg;
     padding-top: 20rem;
     margin-top: -14rem;
+    z-index: 2;
 }
 
 //SERVICE GRID LAYOUT
@@ -65,7 +71,8 @@
 //TESTIMONIES LAYOUT
 
 .testimonies-grid{
-    margin: 5rem 2.5rem;
+    margin: 5rem 2.5rem 0;
+    padding-bottom: 25rem;
 }
 
 //NEWSLETTER LAYOUT
@@ -75,10 +82,13 @@
     text-align: center;
     padding: 3rem 1rem;
     margin: 0 1.5rem;
+    position: absolute;
+    bottom: -15.5rem;
 }
 
 //FOOTER LAYOUT
 
 .footer{
     background-color: $footer-bg;
+    border: none;
 }

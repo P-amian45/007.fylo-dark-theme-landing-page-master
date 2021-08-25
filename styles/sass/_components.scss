@@ -54,6 +54,7 @@
 .cta{
     font-family: $headings-cta-nav;
     font-weight: $font-bold;
+    font-size: $normal-size;
     padding: 1rem 8rem;
     border-radius: 3rem;
     background: linear-gradient(to right, $cyan, $blue);
@@ -224,19 +225,41 @@
         margin: 2rem 0;
     }
 
+    &__form{
+        margin-top: 5rem;
+    }
+
     &__input{
-        padding: 1rem 4rem;
+        padding: 1rem 4rem 1rem 2rem;
         margin-bottom: 2.5rem;
         border-radius: 2rem;
         border: none;
         outline: none;
+
+        &::placeholder{
+            font-size: $link-size-m;
+            opacity: 50%;
+        }
     }
 
     &__button{
-        padding: 1rem 6rem;
+        padding: 1rem 4rem;
         outline: none;
         border: none;
         border-radius: 2rem;
-        background: linear-gradient(to bottom, $blue, $cyan);
+        background: linear-gradient(to right, $cyan, $blue);
+        color: $white;
+        font-family: $headings-cta-nav;
+        font-weight: $font-bold;
+        font-size: $normal-size;
+    }
+}
+
+//FOOTER 
+
+.footer{
+
+    &__logo{
+        margin-top: 20rem;
     }
 }
