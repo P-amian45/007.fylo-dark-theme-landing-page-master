@@ -41,7 +41,13 @@
   align-self: center; }
 
 .testimonies-grid {
-  margin: 5rem 2rem; }
+  margin: 5rem 2.5rem; }
+
+.newsletters {
+  background-color: #1c2431;
+  text-align: center;
+  padding: 3rem 1rem;
+  margin: 0 1.5rem; }
 
 .footer {
   background-color: #0b1523; }
@@ -98,7 +104,7 @@
   font-weight: 700;
   color: white;
   margin: 2.5rem 0 1rem 0;
-  opacity: 90%; }
+  opacity: 85%; }
 
 .service__description {
   margin-bottom: 2rem;
@@ -188,3 +194,33 @@
     color: white;
     opacity: 75%;
     font-size: 0.8rem; }
+
+.newsletters__heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  opacity: 85%; }
+
+.newsletters__description {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.15rem;
+  color: white;
+  opacity: 85%;
+  line-height: 1.5;
+  margin: 2rem 0; }
+
+.newsletters__input {
+  padding: 1rem 4rem;
+  margin-bottom: 2.5rem;
+  border-radius: 2rem;
+  border: none;
+  outline: none; }
+
+.newsletters__button {
+  padding: 1rem 6rem;
+  outline: none;
+  border: none;
+  border-radius: 2rem;
+  background: linear-gradient(to bottom, #339ecc, #65e2d9); }

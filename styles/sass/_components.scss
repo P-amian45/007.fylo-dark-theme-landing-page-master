@@ -74,7 +74,7 @@
         font-weight: $font-bold;
         color: $white;
         margin: 2.5rem 0 1rem 0;
-        opacity: 90%;
+        opacity: 85%;
     }
 
     &__description{
@@ -199,5 +199,44 @@
         color: $white;
         opacity: 75%;
         font-size: $xs-size;
+    }
+}
+
+//NEWSLETTER SECTION
+
+.newsletters{
+
+    &__heading{
+        font-family: $headings-cta-nav;
+        font-size: $promise-font-size;
+        font-weight: $font-bold;
+        color: $white;
+        opacity: 85%;
+    }
+
+    &__description{
+        font-family: $body-font;
+        font-weight: $font-normal;
+        font-size: $header-description;
+        color: $white;
+        opacity: 85%;
+        line-height: 1.5;
+        margin: 2rem 0;
+    }
+
+    &__input{
+        padding: 1rem 4rem;
+        margin-bottom: 2.5rem;
+        border-radius: 2rem;
+        border: none;
+        outline: none;
+    }
+
+    &__button{
+        padding: 1rem 6rem;
+        outline: none;
+        border: none;
+        border-radius: 2rem;
+        background: linear-gradient(to bottom, $blue, $cyan);
     }
 }
