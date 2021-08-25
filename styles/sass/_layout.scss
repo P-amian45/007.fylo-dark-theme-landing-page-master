@@ -1,5 +1,6 @@
 body{
     position: relative;
+    background-color: $main-bg;
 }
 
 //HEADER LAYOUT
@@ -8,7 +9,8 @@ body{
     background: #1c2431 url(/images/bg-curvy-mobile.svg) -51vw 30vh no-repeat;
     padding: 2rem;
     position: relative;
-    background-size: 220% 60%;
+    background-size: 220% 61%;
+    z-index: 5;
 
 
     &__top{
@@ -48,7 +50,6 @@ body{
     background-color: $main-bg;
     padding-top: 20rem;
     margin-top: -14rem;
-    z-index: 2;
 }
 
 //SERVICE GRID LAYOUT
@@ -90,5 +91,4 @@ body{
 
 .footer{
     background-color: $footer-bg;
-    border: none;
 }

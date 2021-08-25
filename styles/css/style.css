@@ -1,11 +1,13 @@
 body {
-  position: relative; }
+  position: relative;
+  background-color: #181f2a; }
 
 .header {
   background: #1c2431 url(/images/bg-curvy-mobile.svg) -51vw 30vh no-repeat;
   padding: 2rem;
   position: relative;
-  background-size: 220% 60%; }
+  background-size: 220% 61%;
+  z-index: 5; }
   .header__top {
     display: flex;
     justify-content: space-between;
@@ -31,8 +33,7 @@ body {
   position: relative;
   background-color: #181f2a;
   padding-top: 20rem;
-  margin-top: -14rem;
-  z-index: 2; }
+  margin-top: -14rem; }
 
 .services-grid {
   padding: 0 3rem;
@@ -58,8 +59,7 @@ body {
   bottom: -15.5rem; }
 
 .footer {
-  background-color: #0b1523;
-  border: none; }
+  background-color: #0b1523; }
 
 .icon {
   width: 1rem;
@@ -246,4 +246,4 @@ body {
   font-size: 1.4rem; }
 
 .footer__logo {
-  margin-top: 20rem; }
+  margin-top: 21rem; }
