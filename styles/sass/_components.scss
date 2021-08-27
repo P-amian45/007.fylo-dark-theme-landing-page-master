@@ -262,4 +262,25 @@
     &__logo{
         margin-top: 21rem;
     }
+
+    &__content{
+        font-family: $body-font;
+        font-size: $normal-size;
+        color: $white;
+        margin-left: 2.5rem;
+    }
+}
+
+.company{
+    margin-bottom: 2rem;
+
+    & > p{
+        margin: 0 0 2rem 1rem;
+    }
+
+    &__location{
+        position: relative;
+        width: 70%;
+        opacity: 85%;
+    }
 }

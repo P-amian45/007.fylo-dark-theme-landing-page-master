@@ -247,3 +247,18 @@ body {
 
 .footer__logo {
   margin-top: 21rem; }
+
+.footer__content {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  color: white;
+  margin-left: 2.5rem; }
+
+.company {
+  margin-bottom: 2rem; }
+  .company > p {
+    margin: 0 0 2rem 1rem; }
+  .company__location {
+    position: relative;
+    width: 70%;
+    opacity: 85%; }
